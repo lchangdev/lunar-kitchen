@@ -36,7 +36,7 @@ feature "User views a recipe" do
       '1 teaspoon lemon juice or 1 Tbsp Meyer lemon juice, fresh squeezed',
       '1/4 cup toasted slivered almonds'
     ]
-
+# save_and_open_page
     ingredients.each do |ingredient|
       expect(page).to have_content ingredient
     end
